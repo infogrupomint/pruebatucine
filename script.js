@@ -87,7 +87,7 @@ function realizarPedido() {
     mensajePedido += `\nTotal: $${totalCarrito.toFixed(2)}\nSala: ${salaSeleccionada}\nUbicación: ${ubicacion}`;
 
     // Enviar el pedido a través de WhatsApp
-    const numeroWhatsApp = '2364560273'; // Reemplaza con tu número de WhatsApp
+    const numeroWhatsApp = '2364265933'; // Reemplaza con tu número de WhatsApp
     const enlaceWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajePedido)}`;
 
     // Abrir WhatsApp en una nueva pestaña
