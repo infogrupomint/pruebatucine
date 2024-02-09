@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('encabezado.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    background-image: url('cuerpo.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+ /* Estilo para el logo */
+.logo {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra el logo dentro del encabezado */
+    }
+
+ /* Estilo para el texto del encabezado */
+h1 {
+    font-family: sans-serif;
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+        }
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.producto {
+    backdrop-filter: blur(15px);
+    border: 1px solid #1c1c1c;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+}
+
+#carrito {
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: url('fondocarrito.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+#refreshButton {
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #e01717;
+}
+
+#sala-ubicacion {
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    background-image: url('fondosala.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+#sala, #ubicacion {
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilos generales para el botón */
+button {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #19bf3d;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+
+a {
+    color: rgb(24, 199, 190);
+}
+/* Estilo para enlaces visitados */
+a:visited {
+    color: rgb(24, 199, 190); /* Puedes cambiar el color para enlaces visitados aquí */
+    }
+
+/* Estilo para enlaces activos (cuando se hace clic) */
+    a:active {
+        color: rgb(24, 199, 190); /* Puedes cambiar el color para enlaces activos aquí */
+    }
+
+

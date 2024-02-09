@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tu Cine Candy Online</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="Logo de la empresa">
+       <!-- <h1>Candy Online</h1>-->
+    </header>
+
+    <section id="productos">
+        <!-- Aquí se mostrarán los productos -->
+    </section>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="totalCarrito">0.00</span></p>
+        <button id="refreshButton">Reiniciar Carrito</button>
+    </section>
+
+    <section id="sala-ubicacion">
+        <h2>Sala y Ubicación</h2>
+        <label for="sala">Selecciona la Sala:</label>
+        <select id="sala">
+            <option value="Sala 1">Sala 1</option>
+            <option value="Sala 2">Sala 2</option>
+            <option value="Sala 3">Sala 3</option>
+        </select>
+        
+        <br>
+        <label for="ubicacion">Ubicación en la Sala:</label>
+        <input type="text" id="ubicacion" placeholder="Ej: Butcata E2">
+        <br>
+        <button onclick="realizarPedido()">Realizar Pedido</button>
+    </section>
+
+    <footer>
+        <p>Web desarrollada por 
+        <a href="https://infogrupomint.github.io/grupomint/" target="_blank">Mint</a>
+        </p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
